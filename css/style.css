@@ -1,0 +1,278 @@
+.black-section {
+    background-color: #1C1C1C;
+}
+
+.beige-section {
+    background-color: #e2d9cc;
+}
+
+i {
+    margin-right: 2px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    font-family: 'agrandir', sans-serif;
+    --bs-navbar-color: #e2d9cc;
+    --bs-navbar-hover-color: #b2aa9e;
+    padding-bottom: 4.5rem;
+}
+
+.nav-link {
+    font-size: clamp(0.1rem, 5vw, 1.081rem);
+}
+
+.logo {
+    width: 4.069rem;
+}
+
+.btn-secondary {
+    font-family: 'agrandir', sans-serif;
+    color: #e2d9cc;
+    background-color: #7d7d7d;
+}
+
+.btn-secondary:hover {
+
+    color: white;
+    background-color: #929292;
+}
+
+/* NAVBAR FINISHED */
+
+/* SLOGAN/HAMBURGUER */
+
+#home {
+    width: 100%;
+    height: 68rem;
+}
+
+.content-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan {
+    font-family: 'lovelo', sans-serif;
+    color: white;
+    font-size: clamp(1.2rem, 5vw, 3rem);
+    line-height: 0;
+}
+
+.brakz-red {
+    font-family: 'lovelo', sans-serif;
+    color: #a61714;
+    font-size: clamp(3rem, 13vw, 16rem);
+    line-height: 0.95;
+}
+
+.hamburguer-explodido{
+    position: absolute;
+    width: 100%;
+    max-width: 90rem;
+    left: 50%;
+    top: 55%;
+    transform: translate(-49%, -39%);
+    height: auto;
+}
+
+/* SLOGAN/HAMBURGUER FINISHED */
+
+/* MENU */
+
+#menu {
+    font-family: 'agrandir', sans-serif;
+    padding: 15% 15%; 
+}
+
+.hamburguer-menu {
+    width: 100%;
+    transition: 1.5s;
+}
+
+.hamburguer-menu:hover {
+    transform:  translateY(-60px);
+    filter: drop-shadow(10px 25px 10px rgba(0, 0, 0, 0.24));
+}
+
+.text-menu {
+    font-size: 1.063rem;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+/* MENU FINISHED */
+
+/* PHOTOS */
+
+#photos {
+    width: 100%;
+    padding: 8.5% 5% 17% 10%;
+}
+
+.background-content-photos {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/faixa-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.box-photo {
+    z-index: 1;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 3%;
+    border: #e2d9cc;
+    border-style: solid;
+}
+
+.text-box-photos {
+    width: 57%;
+    padding: 1.5%;
+    border-radius: 1%;
+    background-color: #1C1C1C;
+    z-index: 1;
+    margin-left: 1%;
+}
+
+.food-title {
+    font-family: 'lovelo', sans-serif;
+    font-size: 2.858rem;
+    color: #e2d9cc;
+    padding-bottom: 15%;
+    width: 100%;
+}
+
+.food-text {
+    font-family: 'agrandir', sans-serif;
+    font-size: 1.467rem;
+    color: #e2d9cc;
+    text-align: justify;
+    width: 100%;
+}
+
+/* PHOTOS FINISHED */
+
+/* CONTACT */
+
+#contact {
+    padding: 2% 10% 15%;
+}
+
+.contact-title {
+    font-family: 'lovelo', sans-serif;
+    font-size: 2.083rem;
+    padding-bottom: 5%;
+}
+
+.contact-subtitle {
+    font-size: 2.833rem;
+    font-family: 'agrandir', sans-serif;
+    font-weight: bold;
+}
+
+.contact-text {
+    font-family: 'agrandir', sans-serif;
+    font-size: 1.8rem;
+    line-height: 0.45;
+}
+
+.box-phone-hamburguer {
+    max-width: 33.769rem;
+}
+
+.phone-hamburguer {
+    width: 100%;
+}
+
+.btn-contact {
+    font-family: 'agrandir', sans-serif;
+    font-size: 1.3rem;
+    color: #e2d9cc;
+    background-color: #7d7d7d;
+    border-radius: 40px;
+    width: 17.894rem;
+    height: 4.075rem;
+}
+
+.btn-contact:hover {
+    color: white;
+    background-color: #929292;
+}
+
+/* CONTACT FINISHED */
+
+/* FOOTER */
+
+#footer {
+    background-color: #dad0c2;
+    padding: 1.2% 15%;
+}
+
+.footer-link {
+    font-family: 'agrandir', sans-serif;
+    text-decoration: none;
+    color: #7d7d7d;
+}
+
+.blockquote-footer {
+    margin: 0;
+}
+
+.box-copyright {
+    padding: 4% 2% 0%;
+}
+
+.github {
+    text-decoration: none;
+    color: #41494e;
+}
+
+/* FOOTER FINISHED */
+
+/* RESPONSIVE ADJUSTMENT FOR MOBILE MEDIA */
+
+@media (max-width: 768px) {
+    .nav-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .btn-secondary {
+        margin-top: 0.313rem;
+        width: auto;
+        padding: 0.625rem 1.563rem;
+        border-radius: 3.125rem;
+    }
+
+    .hamburguer-explodido {
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 70rem;
+        height: auto;
+        z-index: 1; 
+    }
+
+    #home {
+        height: 40rem;
+    }
+
+    .background-content {
+    background-size: cover;
+    }
+
+    .text-box-photos {
+    width: 97%;
+    }
+}

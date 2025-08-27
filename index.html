@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brakz Burguer - É brasa, é bread, é Brakz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon-brakz.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <style>
+
+        @font-face {
+            font-family: 'agrandir';
+            src: url('fonts/agrandir-regular.otf') format('opentype'), url('fonts/agrandir-bold.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'lovelo';
+            src: url('fonts/lovelo.otf') format('opentype');
+        }
+
+    </style>
+</head>
+<body>
+    <header id="home" class="black-section header header-mobile">
+
+        <div class="container-fluid">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg bg-transparent">
+
+                <div class="container-md nav-mobile">
+
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="./img/logo-brakz-burguer.png" alt="logo Brakz Burguer">
+                    </a>
+
+                    <ul class="navbar-nav flex-row">
+                        <li class="navbar-item mx-2"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="navbar-item mx-2"><a class="nav-link" href="#menu">MENU</a></li>
+                        <li class="navbar-item mx-2"><a class="nav-link" href="#photos">FOTOS</a></li>
+                        <li class="navbar-item mx-2"><a class="nav-link" href="#contact">CONTATO</a></li>
+                    </ul>
+
+                    <button type="button" class="btn btn-secondary"><i class="fa-solid fa-burger"></i>FAÇA SEU PEDIDO!</a></button>
+
+                </div>
+
+            </nav>
+
+            <!--Slongan/Hamburguer-->
+            <div class="content-slogan">
+
+                <div class="text-center">
+                    <h1 class="slogan">É brasa, É bread, é</h1>
+                    <span class="brakz-red">BRAKZ</span>
+                </div>
+
+                <img class="hamburguer-explodido img-fluid" src="./img/Home.png" alt="Lanche retradado como se estivesse explodindo">
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section id="menu" class="beige-section">
+
+            <div class="row align-items-end">
+
+                <!--Kids Burguer-->
+                <div class="col-lg-4">
+                    <a href="#menu"><img class="hamburguer-menu px-4" src="./img/hamburguer-kids.png" alt=""></a> <!--Esta apontado para o menu pois sera uma categoria em um cardapio externo-->
+                    <p class="text-menu">KIDS</p>
+                </div>
+
+                <!--Artisanal Burguer-->
+                <div class="col-lg-4">
+                    <a href="#menu"><img class="hamburguer-menu" src="./img/hamburguer-artesanal.png" alt=""></a> <!--Esta apontado para o menu pois sera uma categoria em um cardapio externo-->
+                    <p class="text-menu">ARTESANAL</p>
+                </div>
+
+                <!--Chicken Burguer-->
+                <div class="col-lg-4">
+                    <a href="#menu"><img class="hamburguer-menu px-4" src="./img/hamburguer-frango.png" alt=""></a> <!--Esta apontado para o menu pois sera uma categoria em um cardapio externo-->
+                    <p class="text-menu">FRANGO</p>
+                </div>
+                
+            </div>
+    </section>
+
+    <div class="background-content-photos"></div>
+    <section id="photos" class="black-section">
+        
+        <!--Presentation of dishes-->
+        <div class="row">
+            
+            <!--Photos-->
+            <div class="box-photo col-lg-5">
+
+                <!--Carousel photos-->
+                <div id="carouselPresentation" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="6000">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img class="photo" src="./img/apresentacao-prato-artesanal.png" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="photo" src="./img/apresentacao-prato-kids.png" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="photo" src="./img/apresentacao-prato-frango.png" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Carousel photos finished-->
+
+            </div>
+
+            <!--Presentation text-->
+            <div class="text-box-photos col-lg-7">
+
+                <!--Carousel texts-->
+                <div id="carouselPresentation" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="6000">
+                    
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <h2 class="food-title">BRAKZ SALAD ©</h2>
+                            <p class="food-text">Uma explosão de sabor em cada detalhe: nosso hambúrguer
+                            artesanal é preparado com carne 100% angus, suculento e
+                            grelhado no ponto ideal, coberto com queijo cheddar
+                            derretido, alface crocante, tomate fresco e cebola suave,
+                            tudo isso envolvido em um pão brioche macio e levemente
+                            tostado com gergelim.</p>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h2 class="food-title">BRAKZ KIDZ ©</h2>
+                            <p class="food-text">Pensado especialmente para os pequenos, o nosso Hambúrguer Kids é a escolha
+                            perfeita para uma refeição divertida e saborosa. Feito com um hambúrguer
+                            suculento, servido no pão fofinho, acompanhado de ketchup, mostarda, picles e
+                            cebola picadinha — tudo na medida certa para agradar o paladar das crianças.</p>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h2 class="food-title">CHICKEN BRAKZ ©</h2>
+                            <p class="food-text">Uma experiência completa para quem ama frango! Nosso hambúrguer de frango
+                            crocante é preparado com peito suculento, empanado até atingir a crocância
+                            perfeita, servido em pão macio e dourado, com alface fresca e um toque
+                            especial de maionese cremosa. Acompanhando, deliciosos nuggets dourados,
+                            Crocantes por fora e macios por dentro, perfeitos para mergulhar no seu molho
+                            preferido.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Carousel texts finished-->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="beige-section">
+
+        <h3 class="contact-title text-center">CONTATO</h3>
+        <div class="row justify-content-center">
+                      
+            <div class="col-lg-6">
+                <h4 class="contact-subtitle">WhatsApp<i class="fa-brands fa-whatsapp fa-1x"></i></h4>
+                <p class="contact-text pb-5">(11) 98765-4321</p>
+    
+                <h4 class="contact-subtitle">Endereço</h4>
+                <p class="contact-text">Rua Sem Nome, 1423</p>
+                <p class="contact-text">Jardim Martinez</p>
+                <p class="contact-text">São Paulo - SP</p>
+                <p class="contact-text pb-5">01234-321</p>
+                
+                <h4 class="contact-subtitle">Faça já o seu pedido!</h4>
+                <div class="d-flex justify-content-center mt-3">
+                    <button class="btn-contact btn"><i class="fa-solid fa-burger"></i>FAZER PEDIDO</button>
+                </div>
+            </div>
+
+            <div class="box-phone-hamburguer col-lg-6 align-self-center">
+                <img class="phone-hamburguer" src="./img/celular-hamburguer.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+
+        <div class="row text-center">
+
+            <div class="col-4">
+                <a class="footer-link" href=""><i class="fa-brands fa-whatsapp fa-xl py-3"></i></a>
+            </div>
+
+            <div class="col-4">
+                <a class="footer-link" href=""><i class="fa-brands fa-square-facebook fa-xl py-3"></i></a>
+            </div>
+
+            <div class="col-4">
+                <a class="footer-link" href=""><i class="fa-brands fa-instagram fa-xl py-3"></i></a>
+            </div>
+
+            <div class="box-copyright col-sm-12">
+                <p class="blockquote-footer">© 2025 Leonardo S. Dias @<a class="github" href="http://github.com/23lsdev" target="_blank" >LSDeveloper</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
